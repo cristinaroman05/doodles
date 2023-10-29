@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Doodles';
+    src: url(./assets/fonts/comic-neue/ComicNeue-Bold.ttf);
+}
+body{
+    font-family: 'Doodles';
+    max-width: 1500px;
+}
+/*HEADER*/
+header{
+    font-family: "comicNeue";
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+}
+
+.logo-header{
+    width: 32px;
+    height: 30px;
+}
+.header-button{
+    background-color: #80B1FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 1px 2px #5086dc;
+}
