@@ -15,7 +15,7 @@ header{
 
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 15px;
     height: 50px;
@@ -33,4 +33,175 @@ nav{
     border-style: none;
     padding: 5px 15px 5px 15px;
     box-shadow: 1px 2px #5086dc;
+}
+/*MAIN*/
+video{
+    max-width: 100%;
+}
+/*SECTION-MAIL*/
+.section-mail{
+    background-color: #80B1FF;
+    color: white;
+    height: 100px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+.mail-div{
+    display: flex;
+    align-items: center;
+}
+.section-mail p{
+    margin-bottom: -9px;
+    font-size: 20px;
+    text-shadow: 2px 2px #5086dc;
+}
+.section-mail button{
+    color: #5086dc;
+    border-color: #5086dc;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bolder;
+    box-shadow: 1px 2px #5086dc;
+}
+.section-mail input{
+    background-color: white;
+    color: rgb(235, 228, 228);
+    box-shadow: 1px 2px grey;
+    border-radius: 8px;
+    padding: 9px 20px;
+    border-style: none;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+/*APP-SECTION*/
+.app-section{
+    background-color: #99E2FF;
+}
+.app-section img{
+    width: 483px;
+    padding-left: 211px;
+    padding-top: 82px;
+}
+.app-title{
+    margin-right: 305px;
+    font-size: xx-large;
+    margin-top: 180px;
+    color: white;
+    text-shadow: 2px 2px #80B1FF;
+    font-weight: bolder;
+}
+.app-subtitle{
+    width: 475px;
+}
+.mobile-app{
+    display: flex;   
+}
+/*GENBOX*/
+.genbox{
+    background-color: #99E2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.img-genbox{
+    max-width: 70%;
+    margin-top: 100px;
+    border-radius: 40px;
+    
+}
+.genbox-gif{
+    max-width: 30%;
+    position: absolute;
+    top: 105px;
+    right: 200px;
+    
+}
+.genbox-text{
+    width: 436px;
+    position: absolute;
+    top: 167px;
+    left: 274px;
+    
+}
+.genbox-p1{
+    color: white;
+    width: 465px;
+    position: absolute;
+    top: 269px;
+    left: 274px;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.genbox-p2{
+    color: white;
+    position: absolute;
+    top: 406px;
+    left: 328px;
+    font-size: 23px;
+    text-shadow: 2px 1px black;
+}
+.genbox-button{
+    background-color: #80B1FF;
+    color: white;
+    border-style: none;
+    padding: 13px 50px;
+    position: absolute;
+    top: 360px;
+    left: 274px;
+    font-size: 20px;
+    font-family: 'comicNeue';
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 1px 2px #5086dc;
+}
+/*STAND NEWS*/
+.stand{
+    background-color: #99E2FF;
+}
+.container-stand {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-stand img{
+    width: 300px;
+    margin-top: -38px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.div-news-stand{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-news-stand img{
+    width: 300px;
+    margin-top:55px
+}
+.container-stand div{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.stand-text{
+    color:#313A71;
+    font-weight: bold;
+    margin: 10px 16px;
+    font-size: large;
+}
+#stand-text2{
+    color: gray;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px;
+    font-weight: 600;
 }
